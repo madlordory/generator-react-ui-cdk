@@ -1,0 +1,35 @@
+{
+  "name": "generator-react-ui-cdk",
+  "version": "0.0.2",
+  "description": "React UI Component DevKit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madlordory/generator-react-ui-cdk.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "madlord.cn@gmail.com",
+  "license": "MIT",
+  "files": [
+    "generators"
+  ],
+  "scripts": {
+    "lint": "eslint generators",
+    "lintfix": "eslint generators --fix"
+  },
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "yeoman-generator": "^0.22.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.2",
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-plugin-jsx-a11y": "^0.6.2",
+    "eslint-plugin-react": "^4.3.0"
+  },
+  "publishConfig":{
+    "registry":"https://registry.npmjs.org/"
+  }
+}
