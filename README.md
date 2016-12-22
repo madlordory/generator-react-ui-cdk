@@ -30,11 +30,13 @@ yo
 npm start
 ```
 
-2.  编辑自己的组件代码
+2.  打开浏览器预览现有的组件[http://localhost:9010/](http://localhost:9010/)
+
+3.  编辑自己的组件代码
     
 `./src/index.js`
 
-3.  编辑storybook页面
+4.  编辑storybook页面
 
 `./src/stories/index.js`
 
